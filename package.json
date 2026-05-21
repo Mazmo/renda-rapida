@@ -1,0 +1,27 @@
+{
+  "name": "dpd-portugal-tracking",
+  "version": "1.0.0",
+  "description": "DPD Portugal package tracking module",
+  "main": "src/index.js",
+  "bin": {
+    "dpd-track": "src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test src/__tests__/tracking.test.js",
+    "track": "node src/cli.js"
+  },
+  "keywords": [
+    "dpd",
+    "portugal",
+    "tracking",
+    "package",
+    "courier"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
